@@ -9,17 +9,14 @@ interface Props {
 
 const GlobalStyleProvider = ({children}: Props ) => {
   return (
-    <GlobalStyles className='flex h-full '>
+    <GlobalStyles className='flex h-full p-2.5 gap-2.5'>
       {children}
     </GlobalStyles>
   )
 }
 
-const GlobalStyles = styled.div`
-  padding: 2.5rem;
-  display: flex;
-  gap: 2.5rem;
-  height: 100%;
+const GlobalStyles = styled.main`
+  
 `;
 
 export default GlobalStyleProvider;

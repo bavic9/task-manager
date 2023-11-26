@@ -5,7 +5,7 @@ export const add = <i className="fa-solid fa-plus"></i>;
 export const moon = <i className="fa-solid fa-moon"></i>;
 export const search = <i className="fa-solid fa-magnifying-glass"></i>;
 export const bell = <i className="fa-solid fa-bell"></i>;
-export const home = <i className="fa-solid fa-house"></i>;
+export const home = <i className="fa-solid fa-house "></i>;
 export const list = <i className="fa-solid fa-list-check"></i>;
 export const check = <i className="fa-solid fa-check"></i>;
 export const help = <i className="fa-solid fa-circle-info"></i>;
